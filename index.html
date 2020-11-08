@@ -15,27 +15,53 @@
 <body>
   <header>
     <nav id="top-bar" class="navbar navbar-dark bg-primary justify-content-end d-none d-md-flex _top-bar">
-        <ul class="navbar-nav flex-row">
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">English</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Logout</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-3 _main-header">
+      <a class="navbar-brand" href="#">UFC</a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#main-navbar"
+        aria-controls="main-navbar" aria-expanded="false" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="main-navbar">
+        <ul class="navbar-nav align-items-center">
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fab fa-facebook-f"></i>
+            <a class="nav-link" href="./pages/about.html">About
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
+            <a class="nav-link" href="#">Program</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">English</a>
+            <a class="nav-link" href="./pages/tickets.html">Tickets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">My Page</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Logout</a>
+            <button type="button" class="btn btn-primary">Book Now!</button>
           </li>
         </ul>
+      </div>
     </nav>
 
   </header>
