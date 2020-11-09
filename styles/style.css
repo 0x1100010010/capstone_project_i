@@ -44,7 +44,7 @@
   --light: #fff;
   --dark: #343a40;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
+  --breakpoint-sm: 384px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
@@ -560,7 +560,7 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .container-sm, .container {
     max-width: 540px;
   }
@@ -815,7 +815,7 @@ pre code {
   margin-left: 91.6666666667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -1916,7 +1916,7 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 383.98px) {
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -2338,7 +2338,7 @@ textarea.form-control {
 .form-inline .form-check {
   width: 100%;
 }
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .form-inline label {
     display: flex;
     align-items: center;
@@ -2992,7 +2992,7 @@ input[type=button].btn-block {
   left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .dropdown-menu-sm-left {
     right: auto;
     left: 0;
@@ -3922,7 +3922,7 @@ input[type=button].btn-block {
   background-size: 100% 100%;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 383.98px) {
   .navbar-expand-sm > .container,
 .navbar-expand-sm > .container-fluid,
 .navbar-expand-sm > .container-sm,
@@ -3933,7 +3933,7 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .navbar-expand-sm {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -4302,7 +4302,7 @@ input[type=button].btn-block {
 .card-deck .card {
   margin-bottom: 15px;
 }
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .card-deck {
     display: flex;
     flex-flow: row wrap;
@@ -4320,7 +4320,7 @@ input[type=button].btn-block {
 .card-group > .card {
   margin-bottom: 15px;
 }
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -4338,7 +4338,7 @@ input[type=button].btn-block {
 .card-columns .card {
   margin-bottom: 0.75rem;
 }
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .card-columns {
     column-count: 3;
     column-gap: 1.25rem;
@@ -4594,7 +4594,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 2rem;
   background-color: #f7f7f9;
 }
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .jumbotron {
     padding: 4rem 2rem;
   }
@@ -4849,7 +4849,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-left-width: 1px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .list-group-horizontal-sm {
     flex-direction: row;
   }
@@ -5249,7 +5249,7 @@ a.close.disabled {
   overflow: scroll;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -6026,7 +6026,7 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .d-sm-none {
     display: none !important;
   }
@@ -6388,7 +6388,7 @@ button.bg-dark:focus {
   align-self: stretch !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .flex-sm-row {
     flex-direction: row !important;
   }
@@ -6948,7 +6948,7 @@ button.bg-dark:focus {
   float: none !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .float-sm-left {
     float: left !important;
   }
@@ -7597,7 +7597,7 @@ button.bg-dark:focus {
   margin-left: auto !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -9375,7 +9375,7 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 384px) {
   .text-sm-left {
     text-align: left !important;
   }
@@ -9782,10 +9782,10 @@ h3 {
   background-size: cover;
   /* Resize the background image to cover the entire container */
 }
-@media (min-width: 768px) {
+@media (min-width: 384px) {
   #featured-fights ._featured-fight-1 {
-    min-height: 17vw;
-    min-width: 17vw;
+    min-height: 10vw;
+    min-width: 10vw;
     max-height: 160px;
     max-width: 160px;
   }

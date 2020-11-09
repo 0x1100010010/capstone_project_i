@@ -134,6 +134,14 @@ $pagination-disabled-border-color: $pagination-border-color !default;
 
 $breadcrumb-bg: transparent !default;
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 384px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
 // Lux 4.5.3
 // Bootswatch
 
@@ -247,9 +255,9 @@ $_orange: #ec5242 !default;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 
-    @media (min-width: 768px) {
-      min-height: 17vw;
-      min-width: 17vw;
+    @media (min-width: 384px) {
+      min-height: 10vw;
+      min-width: 10vw;
       max-height: 160px;
       max-width: 160px;
     }
