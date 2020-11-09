@@ -9710,4 +9710,17 @@ h3 {
   color: black;
 }
 
+#sponsors span {
+  border-bottom: orange solid 2px;
+  min-width: 3%;
+}
+#sponsors .img-fluid {
+  max-width: 7rem;
+  margin: 1rem;
+  opacity: 0.5;
+}
+#sponsors .img-fluid:hover, #sponsors .img-fluid:focus {
+  opacity: 0.9;
+}
+
 /*# sourceMappingURL=style.css.map */

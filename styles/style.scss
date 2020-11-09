@@ -190,3 +190,20 @@ $breadcrumb-bg: transparent !default;
     }
   }
 }
+
+#sponsors {
+  span {
+    border-bottom: orange solid 2px;
+    min-width: 3%;
+  }
+
+  .img-fluid {
+    max-width: 7rem;
+    margin: 1rem;
+    opacity: 0.5;
+
+    @include hover-focus() {
+      opacity: 0.9;
+    }
+  }
+}
