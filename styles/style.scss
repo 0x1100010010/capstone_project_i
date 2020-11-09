@@ -51,8 +51,14 @@ $body-color: $gray-700 !default;
   src: url(https://www.ufc.com/themes/custom/ufc/fonts/DPT55__W.woff2);
 }
 
+@font-face {
+  font-family: 'DPT';
+  src: url(https://fonts.googleapis.com/css?family=Lato);
+}
+
 // stylelint-disable-next-line value-keyword-case
-$font-family-sans-serif: 'DPT',
+$font-family-sans-serif: 'Lato'
+  'DPT',
   'UFC',
   "Nunito Sans",
   -apple-system,
@@ -150,12 +156,11 @@ $breadcrumb-bg: transparent !default;
     padding: 0 20px;
     color: $primary;
     font-family: 'UFC', Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: xx-large;
     font-style: italic;
 
     @include hover-focus () {
       color: black;
-      font-weight: bolder;
     }
   }
 
@@ -182,7 +187,6 @@ $breadcrumb-bg: transparent !default;
 
     @include hover-focus () {
       color: black;
-      font-weight: bolder;
     }
   }
 }
