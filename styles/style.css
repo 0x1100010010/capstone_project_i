@@ -9700,4 +9700,16 @@ h3 {
   fill: #20c997;
 }
 
+._main-footer .navbar-brand {
+  padding: 0 20px;
+  color: #1a1a1a;
+  font-family: "UFC", Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
+  font-style: italic;
+}
+._main-footer .navbar-brand:hover, ._main-footer .navbar-brand:focus {
+  color: black;
+  font-weight: bolder;
+}
+
 /*# sourceMappingURL=style.css.map */

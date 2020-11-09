@@ -176,3 +176,18 @@ $breadcrumb-bg: transparent !default;
     fill: #20c997;
   }
 }
+
+._main-footer {
+  .navbar-brand {
+    padding: 0 20px;
+    color: $primary;
+    font-family: 'UFC', Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-style: italic;
+
+    @include hover-focus () {
+      color: black;
+      font-weight: bolder;
+    }
+  }
+}
