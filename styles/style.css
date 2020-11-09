@@ -9695,10 +9695,6 @@ h3 {
 ._main-header button {
   height: fit-content;
 }
-._main-header svg {
-  color: #007bff;
-  fill: #20c997;
-}
 
 ._main-footer .navbar-brand {
   padding: 0 20px;
