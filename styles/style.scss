@@ -61,7 +61,7 @@ $body-color: $gray-700 !default;
 
 @font-face {
   font-family: 'Cocogoose';
-  src: url(./../assets/fonts/Cocogoose-Pro-Regular-Trial.ttf);
+  src: url(./../assets/fonts/Cocogoose.otf);
 }
 
 // stylelint-disable-next-line value-keyword-case
@@ -460,8 +460,12 @@ $_orange: #ec5242 !default;
 
   h1 {
     color: $_orange;
-    font-size: 7vw;
-    font-weight: bold;
+    font-size: 5vw;
+    font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+
+    @media (max-width: 768px) {
+      font-size: 7vw;
+    }
   }
 }
 
@@ -497,22 +501,6 @@ $_orange: #ec5242 !default;
 #past-events {
   border: 3px solid $secondary;
 
-  .card {
-    min-width: 50vw;
-  }
-
-  ._brand {
-    padding: 0 20px;
-    color: $primary;
-    font-family: 'UFC', Arial, Helvetica, sans-serif;
-    font-size: 3.5rem;
-    font-style: italic;
-
-    @include hover-focus () {
-      color: black;
-    }
-  }
-
   ._bg-texture {
     position: relative;
     z-index: -10;
@@ -535,13 +523,15 @@ $_orange: #ec5242 !default;
     background: #ec5242bb;
   }
 
-  .img-fluid {
-    max-width: 7rem;
-    margin: 1rem;
-    opacity: 0.5;
+  .card-img {
+    min-height: 25vw;
 
-    @include hover-focus() {
-      opacity: 0.9;
+    @media (max-width: 768px) {
+      min-height: 50vw;
     }
+  }
+
+  .card-text {
+    font-size: large;
   }
 }

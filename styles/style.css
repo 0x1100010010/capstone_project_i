@@ -13,7 +13,7 @@
 }
 @font-face {
   font-family: "Cocogoose";
-  src: url(./../assets/fonts/Cocogoose-Pro-Regular-Trial.ttf);
+  src: url(./../assets/fonts/Cocogoose.otf);
 }
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -9923,8 +9923,13 @@ h3 {
 }
 #about-hero h1 {
   color: #ec5242;
-  font-size: 7vw;
-  font-weight: bold;
+  font-size: 5vw;
+  font-family: "Cocogoose", Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+  #about-hero h1 {
+    font-size: 7vw;
+  }
 }
 
 #about {
@@ -9954,19 +9959,6 @@ h3 {
 #past-events {
   border: 3px solid #eceeef;
 }
-#past-events .card {
-  min-width: 50vw;
-}
-#past-events ._brand {
-  padding: 0 20px;
-  color: #272a31;
-  font-family: "UFC", Arial, Helvetica, sans-serif;
-  font-size: 3.5rem;
-  font-style: italic;
-}
-#past-events ._brand:hover, #past-events ._brand:focus {
-  color: black;
-}
 #past-events ._bg-texture {
   position: relative;
   z-index: -10;
@@ -9987,13 +9979,16 @@ h3 {
   bottom: 0;
   background: #ec5242bb;
 }
-#past-events .img-fluid {
-  max-width: 7rem;
-  margin: 1rem;
-  opacity: 0.5;
+#past-events .card-img {
+  min-height: 25vw;
 }
-#past-events .img-fluid:hover, #past-events .img-fluid:focus {
-  opacity: 0.9;
+@media (max-width: 768px) {
+  #past-events .card-img {
+    min-height: 50vw;
+  }
+}
+#past-events .card-text {
+  font-size: large;
 }
 
 /*# sourceMappingURL=style.css.map */
