@@ -202,6 +202,7 @@ $_orange: #ec5242 !default;
 
 ._devider {
   border-bottom: $_orange solid 2px;
+  min-height: 2px;
   min-width: 3%;
   max-width: 5%;
 }
@@ -414,12 +415,81 @@ $_orange: #ec5242 !default;
   .table {
     border: 5px dashed $secondary;
     box-shadow: 0 10px 13px -7px black;
-    list-style: none;
   }
 }
 
 #select-dinner {
   ._form-submit {
     min-width: 30%;
+  }
+}
+
+// About Page
+
+#about-hero {
+  ._bg-texture {
+    background-color: #0001;
+    position: relative;
+    z-index: -10;
+    background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+    width: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  ._bg-texture::before {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #fffe;
+  }
+
+  ._container {
+    padding: 10%;
+  }
+
+  .card {
+    border: $_gray 3px solid;
+    min-width: 50vw;
+  }
+
+  h1 {
+    color: $_orange;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+}
+
+#about {
+  border: 3px solid $secondary;
+
+  ._container {
+    padding: 10%;
+  }
+
+  .card {
+    min-width: 50vw;
+  }
+
+  h1 {
+    color: $_orange;
+    font-weight: bold;
+  }
+
+  ._brand {
+    padding: 0 20px;
+    color: $primary;
+    font-family: 'UFC', Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-style: italic;
+
+    @include hover-focus () {
+      color: black;
+    }
   }
 }

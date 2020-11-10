@@ -9717,6 +9717,7 @@ h3 {
 
 ._devider {
   border-bottom: #ec5242 solid 2px;
+  min-height: 2px;
   min-width: 3%;
   max-width: 5%;
 }
@@ -9887,11 +9888,67 @@ h3 {
 #select-dinner .table {
   border: 5px dashed #eceeef;
   box-shadow: 0 10px 13px -7px black;
-  list-style: none;
 }
 
 #select-dinner ._form-submit {
   min-width: 30%;
+}
+
+#about-hero ._bg-texture {
+  background-color: #0001;
+  position: relative;
+  z-index: -10;
+  background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+  width: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about-hero ._bg-texture::before {
+  content: "";
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #fffe;
+}
+#about-hero ._container {
+  padding: 10%;
+}
+#about-hero .card {
+  border: #d3d3d3 3px solid;
+  min-width: 50vw;
+}
+#about-hero h1 {
+  color: #ec5242;
+  font-size: 7vw;
+  font-weight: bold;
+}
+
+#about {
+  border: 3px solid #eceeef;
+}
+#about ._container {
+  padding: 10%;
+}
+#about .card {
+  min-width: 50vw;
+}
+#about h1 {
+  color: #ec5242;
+  font-weight: bold;
+}
+#about ._brand {
+  padding: 0 20px;
+  color: #272a31;
+  font-family: "UFC", Arial, Helvetica, sans-serif;
+  font-size: 3.5rem;
+  font-style: italic;
+}
+#about ._brand:hover, #about ._brand:focus {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
