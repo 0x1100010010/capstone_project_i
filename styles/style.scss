@@ -493,3 +493,55 @@ $_orange: #ec5242 !default;
     }
   }
 }
+
+#past-events {
+  border: 3px solid $secondary;
+
+  .card {
+    min-width: 50vw;
+  }
+
+  ._brand {
+    padding: 0 20px;
+    color: $primary;
+    font-family: 'UFC', Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-style: italic;
+
+    @include hover-focus () {
+      color: black;
+    }
+  }
+
+  ._bg-texture {
+    position: relative;
+    z-index: -10;
+    background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+    min-width: 10vw;
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  ._bg-texture::before {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #ec5242bb;
+  }
+
+  .img-fluid {
+    max-width: 7rem;
+    margin: 1rem;
+    opacity: 0.5;
+
+    @include hover-focus() {
+      opacity: 0.9;
+    }
+  }
+}
