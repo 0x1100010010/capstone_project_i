@@ -409,12 +409,12 @@ $_orange: #ec5242 !default;
 
   .badge-pill {
     font-size: medium;
-    border: 3px solid $_gray;
+    border: 2px solid $_gray;
   }
 
   .table {
-    border: 5px dashed $secondary;
-    box-shadow: 0 10px 13px -7px black;
+    border: 5px dashed $gray-200;
+    box-shadow: 0 5px 15px -7px black;
   }
 }
 

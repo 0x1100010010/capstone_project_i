@@ -9882,12 +9882,12 @@ h3 {
 #select-tickets .badge-pill,
 #select-dinner .badge-pill {
   font-size: medium;
-  border: 3px solid #d3d3d3;
+  border: 2px solid #d3d3d3;
 }
 #select-tickets .table,
 #select-dinner .table {
-  border: 5px dashed #eceeef;
-  box-shadow: 0 10px 13px -7px black;
+  border: 5px dashed #f7f7f9;
+  box-shadow: 0 5px 15px -7px black;
 }
 
 #select-dinner ._form-submit {
