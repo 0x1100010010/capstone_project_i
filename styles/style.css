@@ -9761,6 +9761,10 @@ h3 {
   color: black;
 }
 
+#main-program ._bg-texture {
+  background-color: #343a40;
+  background-image: url("./../assets/bg/3px-tile.png");
+}
 #main-program .card {
   background: #ffffff15;
 }
