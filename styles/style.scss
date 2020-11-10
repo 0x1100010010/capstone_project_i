@@ -399,7 +399,8 @@ $_orange: #ec5242 !default;
 
 // TICKETS PAGE
 
-#select-tickets {
+#select-tickets,
+#select-dinner {
   ._caption {
     color: $_orange;
     font-weight: bolder;
@@ -412,5 +413,13 @@ $_orange: #ec5242 !default;
 
   .table {
     border: 5px dashed $secondary;
+    box-shadow: 0 10px 13px -7px black;
+    list-style: none;
+  }
+}
+
+#select-dinner {
+  ._form-submit {
+    min-width: 30%;
   }
 }
