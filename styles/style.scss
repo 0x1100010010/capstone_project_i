@@ -8,7 +8,7 @@ $gray-600: #919aa1 !default;
 $gray-700: #55595c !default;
 $gray-800: #343a40 !default;
 $gray-900: #1a1a1a !default;
-$_grey: #d3d3d3 !default;
+$_gray: #d3d3d3 !default;
 $_dark: #272a31 !default;
 $black: #000 !default;
 
@@ -151,7 +151,7 @@ xl: 1200px) !default;
 // @import "./../node_modules/bootstrap/scss/variables";
 // @import "./../node_modules/bootstrap/scss/mixins";
 
-$_grey: #d3d3d3 !default;
+$_gray: #d3d3d3 !default;
 $_dark: #272a31 !default;
 $_orange: #ec5242 !default;
 
@@ -405,8 +405,12 @@ $_orange: #ec5242 !default;
     font-weight: bolder;
   }
 
-  .badgr-pill {
+  .badge-pill {
     font-size: medium;
-    border: black 3px solid;
+    border: 3px solid $_gray;
+  }
+
+  .table {
+    border: 5px dashed $secondary;
   }
 }

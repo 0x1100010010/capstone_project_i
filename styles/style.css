@@ -9877,9 +9877,12 @@ h3 {
   color: #ec5242;
   font-weight: bolder;
 }
-#select-tickets .badgr-pill {
+#select-tickets .badge-pill {
   font-size: medium;
-  border: black 3px solid;
+  border: 3px solid #d3d3d3;
+}
+#select-tickets .table {
+  border: 5px dashed #eceeef;
 }
 
 /*# sourceMappingURL=style.css.map */
