@@ -233,6 +233,21 @@ $_orange: #ec5242 !default;
   }
 }
 
+#main-program {
+  .card {
+    background: #ffffff15;
+  }
+
+  .fab {
+    font-size: 2rem;
+  }
+
+  ._card-heading {
+    font-size: 1.2rem;
+    color: $_orange;
+  }
+}
+
 #sponsors {
   .img-fluid {
     max-width: 7rem;

@@ -9761,6 +9761,17 @@ h3 {
   color: black;
 }
 
+#main-program .card {
+  background: #ffffff15;
+}
+#main-program .fab {
+  font-size: 2rem;
+}
+#main-program ._card-heading {
+  font-size: 1.2rem;
+  color: #ec5242;
+}
+
 #sponsors .img-fluid {
   max-width: 7rem;
   margin: 1rem;
