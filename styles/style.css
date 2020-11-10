@@ -9670,39 +9670,39 @@ h3 {
     border-color: rgba(0, 0, 0, 0.05);
   }
 }
-.mh_10 {
+.mw_10 {
   max-width: 10%;
 }
 
-.mh_20 {
+.mw_20 {
   max-width: 20%;
 }
 
-.mh_30 {
+.mw_30 {
   max-width: 30%;
 }
 
-.mh_40 {
+.mw_40 {
   max-width: 40%;
 }
 
-.mh_50 {
+.mw_50 {
   max-width: 50%;
 }
 
-.mh_60 {
+.mw_60 {
   max-width: 60%;
 }
 
-.mh_70 {
+.mw_70 {
   max-width: 70%;
 }
 
-.mh_80 {
+.mw_80 {
   max-width: 80%;
 }
 
-.mh_90 {
+.mw_90 {
   max-width: 90%;
 }
 
@@ -9855,10 +9855,10 @@ h3 {
 }
 @media (min-width: 384px) {
   #featured-fights ._featured-fight-1 {
-    min-height: 10vw;
-    min-width: 10vw;
-    max-height: 160px;
-    max-width: 160px;
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 170px;
+    max-width: 170px;
   }
 }
 #featured-fights .card {
@@ -9914,9 +9914,6 @@ h3 {
   bottom: 0;
   background: #fffe;
 }
-#about-hero ._container {
-  padding: 10%;
-}
 #about-hero .card {
   border: #d3d3d3 3px solid;
   min-width: 50vw;
@@ -9934,9 +9931,6 @@ h3 {
 
 #about {
   border: 3px solid #eceeef;
-}
-#about ._container {
-  padding: 10%;
 }
 #about .card {
   min-width: 50vw;
