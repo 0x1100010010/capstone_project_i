@@ -9721,43 +9721,45 @@ h3 {
   max-width: 5%;
 }
 
-._top-bar {
+#header {
+  box-shadow: 0 0 7px 0 #000;
+}
+#header ._top-bar {
   padding-top: 0;
   padding-bottom: 0;
   font-size: small;
 }
-._top-bar li {
+#header ._top-bar li {
   padding: 0 11px;
 }
-
-._main-header .navbar-brand {
+#header ._main-header .navbar-brand {
   padding: 0 20px;
   color: #272a31;
   font-family: "UFC", Arial, Helvetica, sans-serif;
   font-size: xx-large;
   font-style: italic;
 }
-._main-header .navbar-brand:hover, ._main-header .navbar-brand:focus {
+#header ._main-header .navbar-brand:hover, #header ._main-header .navbar-brand:focus {
   color: black;
 }
-._main-header i {
+#header ._main-header i {
   font-size: xx-large;
 }
-._main-header li {
+#header ._main-header li {
   padding: 0 7px;
 }
-._main-header button {
+#header ._main-header button {
   height: fit-content;
 }
 
-._main-footer .navbar-brand {
+#footer ._main-footer .navbar-brand {
   padding: 0 20px;
   color: #272a31;
   font-family: "UFC", Arial, Helvetica, sans-serif;
   font-size: 3.5rem;
   font-style: italic;
 }
-._main-footer .navbar-brand:hover, ._main-footer .navbar-brand:focus {
+#footer ._main-footer .navbar-brand:hover, #footer ._main-footer .navbar-brand:focus {
   color: black;
 }
 
@@ -9869,6 +9871,15 @@ h3 {
 }
 #featured-fights ._card-text {
   flex: 2;
+}
+
+#select-tickets ._caption {
+  color: #ec5242;
+  font-weight: bolder;
+}
+#select-tickets .badgr-pill {
+  font-size: medium;
+  border: black 3px solid;
 }
 
 /*# sourceMappingURL=style.css.map */

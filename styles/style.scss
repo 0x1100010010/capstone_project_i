@@ -206,53 +206,59 @@ $_orange: #ec5242 !default;
   max-width: 5%;
 }
 
-._top-bar {
-  padding-top: 0;
-  padding-bottom: 0;
-  font-size: small;
+#header {
+  box-shadow: 0 0 7px 0 #000;
 
-  // max-height: 40px;
-  li {
-    padding: 0 11px;
-  }
-}
+  ._top-bar {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
 
-._main-header {
-  .navbar-brand {
-    padding: 0 20px;
-    color: $primary;
-    font-family: 'UFC', Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-    font-style: italic;
-
-    @include hover-focus () {
-      color: black;
+    // max-height: 40px;
+    li {
+      padding: 0 11px;
     }
   }
 
-  i {
-    font-size: xx-large;
-  }
+  ._main-header {
+    .navbar-brand {
+      padding: 0 20px;
+      color: $primary;
+      font-family: 'UFC', Arial, Helvetica, sans-serif;
+      font-size: xx-large;
+      font-style: italic;
 
-  li {
-    padding: 0 7px;
-  }
+      @include hover-focus () {
+        color: black;
+      }
+    }
 
-  button {
-    height: fit-content;
+    i {
+      font-size: xx-large;
+    }
+
+    li {
+      padding: 0 7px;
+    }
+
+    button {
+      height: fit-content;
+    }
   }
 }
 
-._main-footer {
-  .navbar-brand {
-    padding: 0 20px;
-    color: $primary;
-    font-family: 'UFC', Arial, Helvetica, sans-serif;
-    font-size: 3.5rem;
-    font-style: italic;
+#footer {
+  ._main-footer {
+    .navbar-brand {
+      padding: 0 20px;
+      color: $primary;
+      font-family: 'UFC', Arial, Helvetica, sans-serif;
+      font-size: 3.5rem;
+      font-style: italic;
 
-    @include hover-focus () {
-      color: black;
+      @include hover-focus () {
+        color: black;
+      }
     }
   }
 }
@@ -308,6 +314,7 @@ $_orange: #ec5242 !default;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+
     // color: $_orange;
     @media (max-width: 768px) {
       font-size: 10vw;
@@ -387,5 +394,19 @@ $_orange: #ec5242 !default;
 
   ._card-text {
     flex: 2;
+  }
+}
+
+// TICKETS PAGE
+
+#select-tickets {
+  ._caption {
+    color: $_orange;
+    font-weight: bolder;
+  }
+
+  .badgr-pill {
+    font-size: medium;
+    border: black 3px solid;
   }
 }
