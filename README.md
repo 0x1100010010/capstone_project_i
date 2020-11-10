@@ -1,63 +1,56 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone Project (HTML/CSS)
 
-> One paragraph statement about the project.
+> Created a responsive Fight Event website inspired by [Sindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) design. Projects includes differnet stylings of screens i.e. Moble UI, Desktop UI. Dynamic images and content develped using Bootstrap, Flex boxes, Media Queries, Fontawsome Icons and some external resources. 
 
-![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+## Desktop UI
+
+![screenshot](./assets/screenshot-desktop.png)
+
+
+
+
+## Tablet UI
+
+![screenshot](./assets/screenshot-tab.png)
+
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- SASS
+- Bootstrap
+- Font Awesome Icons
+- Linters
+- Gitflows
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://bashforger.github.io/capstone_project_i/)
 
+## Author
 
-## Getting Started
+👤 **Adeel**
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/bashforger)
+- Twitter: [@twitterhandle](https://twitter.com/bashforge)
+- LinkedIn: [LinkedIn](https://linkedin.com/Muhammad-adeel-danish)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+- Forking the project
+- Cloning the project to your local machine
+- cd into the project directory
+- Run git checkout -b your-branch-name
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
+
 
 Feel free to check the [issues page](issues/).
 
@@ -67,9 +60,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- A great learning experience. Credits to [Sindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for inspiration. 
 
 ## 📝 License
 
