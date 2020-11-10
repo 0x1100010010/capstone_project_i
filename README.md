@@ -7,14 +7,14 @@
 
 ## Desktop UI
 
-![screenshot](./assets/screenshot-desktop.png)
+![screenshot](./assets/desktop.png)
 
 
 
 
 ## Tablet UI
 
-![screenshot](./assets/screenshot-tab.png)
+![screenshot](./assets/tab.png)
 
 
 
