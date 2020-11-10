@@ -9761,9 +9761,65 @@ h3 {
   color: black;
 }
 
+#page-hero {
+  /* Clip text element */
+}
+#page-hero ._bg-texture {
+  background-color: #0001;
+  position: relative;
+  z-index: -10;
+  background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+  width: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#page-hero ._bg-texture::before {
+  content: "";
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #fffe;
+}
+#page-hero ._container {
+  padding: 10%;
+}
+#page-hero .card {
+  background-color: #f7f7f9;
+  border: #fff 3px solid;
+  min-width: 50vw;
+}
+#page-hero h1,
+#page-hero h2 {
+  color: #ec5242;
+}
+#page-hero h3,
+#page-hero h5 {
+  color: #55595c;
+  font-weight: 700;
+}
+#page-hero .clip-text {
+  font-size: 7vw;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+}
+@media (max-width: 768px) {
+  #page-hero .clip-text {
+    font-size: 10vw;
+  }
+}
+
 #main-program ._bg-texture {
   background-color: #343a40;
   background-image: url("./../assets/bg/3px-tile.png");
+}
+#main-program .opacity-5 {
+  opacity: 1;
 }
 #main-program .card {
   background: #ffffff15;
@@ -9791,11 +9847,8 @@ h3 {
   min-width: 70vw;
   width: fit-content;
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
   background-size: cover;
-  /* Resize the background image to cover the entire container */
 }
 @media (min-width: 384px) {
   #featured-fights ._featured-fight-1 {
