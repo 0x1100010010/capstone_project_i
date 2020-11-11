@@ -9728,9 +9728,6 @@ h3 {
 #header ._main-header li {
   padding: 0 7px;
 }
-#header ._main-header button {
-  height: fit-content;
-}
 
 #footer ._main-footer .navbar-brand {
   padding: 0 20px;
@@ -9839,7 +9836,6 @@ h3 {
   background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
   min-height: 70vw;
   min-width: 70vw;
-  width: fit-content;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
