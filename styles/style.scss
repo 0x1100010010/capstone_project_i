@@ -324,6 +324,11 @@ $_orange-shaddow: #ec524299 !default;
     @media (max-width: 768px) {
       font-size: 4vw;
     }
+
+    ._joinus {
+      font-size: 5rem;
+      color: $_orange;
+    }
   }
 }
 

@@ -9821,6 +9821,10 @@ h3 {
     font-size: 4vw;
   }
 }
+#main-program ._card-heading ._joinus {
+  font-size: 5rem;
+  color: #ec5242;
+}
 
 #sponsors .img-fluid {
   max-width: 7rem;
