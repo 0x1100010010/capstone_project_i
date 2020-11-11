@@ -9670,6 +9670,21 @@ h3 {
     border-color: rgba(0, 0, 0, 0.05);
   }
 }
+.btn-primary:hover {
+  color: #ec5242;
+  background-color: #16181c;
+  border-color: #101215;
+  box-shadow: 0 0 0 0.2rem #ec524299;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #ec5242;
+  border-color: #ec5242;
+  box-shadow: 0 0 0 0.2rem #ec524299;
+}
+
 .mw_10 {
   max-width: 10%;
 }
@@ -9741,7 +9756,7 @@ h3 {
   font-style: italic;
 }
 #header ._main-header .navbar-brand:hover, #header ._main-header .navbar-brand:focus {
-  color: black;
+  color: #ec5242;
 }
 #header ._main-header i {
   font-size: xx-large;

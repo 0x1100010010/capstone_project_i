@@ -154,6 +154,22 @@ xl: 1200px) !default;
 $_gray: #d3d3d3 !default;
 $_dark: #272a31 !default;
 $_orange: #ec5242 !default;
+$_orange-shaddow: #ec524299 !default;
+
+.btn-primary:hover {
+  color: $_orange;
+  background-color: #16181c;
+  border-color: #101215;
+  box-shadow: 0 0 0 0.2rem $_orange-shaddow;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: $_orange;
+  border-color: $_orange;
+  box-shadow: 0 0 0 0.2rem $_orange-shaddow;
+}
 
 .mw_10 {
   max-width: 10%;
@@ -230,7 +246,7 @@ $_orange: #ec5242 !default;
       font-style: italic;
 
       @include hover-focus () {
-        color: black;
+        color: $_orange;
       }
     }
 
