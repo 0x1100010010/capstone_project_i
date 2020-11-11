@@ -342,12 +342,20 @@ $_orange: #ec5242 !default;
   }
 
   .fab {
-    font-size: 2rem;
+    font-size: 2.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 6vw;
+    }
   }
 
   ._card-heading {
     font-size: 1.2rem;
     color: $_orange;
+
+    @media (max-width: 768px) {
+      font-size: 4vw;
+    }
   }
 }
 
