@@ -9685,42 +9685,6 @@ h3 {
   box-shadow: 0 0 0 0.2rem #ec524299;
 }
 
-.mw_10 {
-  max-width: 10%;
-}
-
-.mw_20 {
-  max-width: 20%;
-}
-
-.mw_30 {
-  max-width: 30%;
-}
-
-.mw_40 {
-  max-width: 40%;
-}
-
-.mw_50 {
-  max-width: 50%;
-}
-
-.mw_60 {
-  max-width: 60%;
-}
-
-.mw_70 {
-  max-width: 70%;
-}
-
-.mw_80 {
-  max-width: 80%;
-}
-
-.mw_90 {
-  max-width: 90%;
-}
-
 ._max-width {
   max-width: 1300px;
 }
@@ -9867,7 +9831,7 @@ h3 {
   opacity: 0.5;
 }
 #sponsors .img-fluid:hover, #sponsors .img-fluid:focus {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 #featured-fights ._featured-fight-1 {
