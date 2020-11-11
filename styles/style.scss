@@ -147,9 +147,6 @@ xl: 1200px) !default;
 // Color system
 //
 @import "../node_modules/bootstrap/scss/bootstrap";
-// @import "./../node_modules/bootstrap/scss/functions";
-// @import "./../node_modules/bootstrap/scss/variables";
-// @import "./../node_modules/bootstrap/scss/mixins";
 
 $_gray: #d3d3d3 !default;
 $_dark: #272a31 !default;
@@ -195,7 +192,6 @@ $_orange-shaddow: #ec524299 !default;
     padding-bottom: 0;
     font-size: small;
 
-    // max-height: 40px;
     li {
       padding: 0 11px;
     }
@@ -297,7 +293,6 @@ $_orange-shaddow: #ec524299 !default;
     -webkit-text-fill-color: transparent;
     background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
 
-    // color: $_orange;
     @media (max-width: 768px) {
       font-size: 10vw;
     }
@@ -305,16 +300,9 @@ $_orange-shaddow: #ec524299 !default;
 }
 
 #main-program {
-
-  // position: relative;
   ._bg-texture {
-    // position: absolute;
     background-color: $dark;
     background-image: url("./../assets/bg/3px-tile.png");
-  }
-
-  .opacity-5 {
-    opacity: 1;
   }
 
   .card {
@@ -374,7 +362,6 @@ $_orange-shaddow: #ec524299 !default;
   }
 
   .card-body {
-    // padding: 0;
     border: none;
   }
 
