@@ -52,7 +52,7 @@ Contributions, issues, and feature requests are welcome!
 - Open a Pull Request with a detailed description to the development branch of the original project for a review
 
 
-Feel free to check the [issues page](./issues/).
+Feel free to check the [issues page](https://github.com/bashforger/capstone_project_i/issues).
 
 ## Show your support
 
@@ -64,4 +64,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/bashforger/capstone_project_i/blob/development/LICENSE) licensed.
