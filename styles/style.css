@@ -9670,6 +9670,11 @@ h3 {
     border-color: rgba(0, 0, 0, 0.05);
   }
 }
+html,
+body {
+  overflow: visible;
+}
+
 .btn-primary:hover {
   color: #ec5242;
   background-color: #16181c;

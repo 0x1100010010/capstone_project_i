@@ -153,6 +153,11 @@ $_dark: #272a31 !default;
 $_orange: #ec5242 !default;
 $_orange-shaddow: #ec524299 !default;
 
+html,
+body {
+  overflow: visible;
+}
+
 .btn-primary:hover {
   color: $_orange;
   background-color: #16181c;
