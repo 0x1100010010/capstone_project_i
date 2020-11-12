@@ -306,7 +306,12 @@ body {
   }
 
   .card {
-    background: #ffffff15;
+    background: #fff1;
+
+    @include hover-focus() {
+      background: #fff3;
+      cursor: pointer;
+    }
   }
 
   .fab {

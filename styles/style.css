@@ -9803,7 +9803,11 @@ body {
   background-image: url("./../assets/bg/3px-tile.png");
 }
 #main-program .card {
-  background: #ffffff15;
+  background: #fff1;
+}
+#main-program .card:hover, #main-program .card:focus {
+  background: #fff3;
+  cursor: pointer;
 }
 #main-program .fab {
   font-size: 2.5rem;
