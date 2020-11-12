@@ -1,0 +1,516 @@
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #f7f7f9 !default;
+$gray-300: #eceeef !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #919aa1 !default;
+$gray-700: #55595c !default;
+$gray-800: #343a40 !default;
+$gray-900: #1a1a1a !default;
+$_gray: #d3d3d3 !default;
+$_dark: #272a31 !default;
+$black: #000 !default;
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #d9534f !default;
+$orange: #fd7e14 !default;
+$_orange: #ec5242 !default;
+$yellow: #f0ad4e !default;
+$green: #4bbf73 !default;
+$teal: #20c997 !default;
+$cyan: #1f9bcf !default;
+
+$primary: $_dark !default;
+$secondary: $gray-300 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $white !default;
+$dark: $gray-800 !default;
+
+$yiq-contrasted-threshold: 185 !default;
+
+// Options
+
+$enable-rounded: false !default;
+
+// Body
+
+$body-color: $gray-700 !default;
+
+// Fonts
+@font-face {
+  font-family: 'UFC';
+  src: url(https://www.ufc.com/themes/custom/ufc/fonts/KlavikaWebBoldCond.woff2);
+}
+
+@font-face {
+  font-family: 'DPT';
+  src: url(https://www.ufc.com/themes/custom/ufc/fonts/DPT55__W.woff2);
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(https://fonts.googleapis.com/css?family=Lato);
+}
+
+@font-face {
+  font-family: 'Cocogoose';
+  src: url(./../assets/fonts/Cocogoose.otf);
+}
+
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif: 'Lato'
+  'DPT',
+  'UFC',
+  'Cocogoose',
+  "Nunito Sans",
+  -apple-system,
+  'BlinkMacSystemFont',
+  "Segoe UI",
+  'Roboto',
+  "Helvetica Neue",
+  'Arial',
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol" !default;
+$font-size-base: 0.875rem !default;
+$h1-font-size: 2rem !default;
+$h2-font-size: 1.75rem !default;
+$h3-font-size: 1.5rem !default;
+$h4-font-size: 1.25rem !default;
+$h5-font-size: 1rem !default;
+$h6-font-size: 0.75rem !default;
+$headings-font-weight: 600 !default;
+$headings-color: $gray-900 !default;
+
+// Tables
+
+$table-border-color: rgba(0, 0, 0, 0.05) !default;
+
+// Buttons + Forms
+
+$input-btn-border-width: 0 !default;
+
+// Buttons
+
+$btn-line-height: 1.5rem !default;
+$input-btn-padding-y: 0.75rem !default;
+$input-btn-padding-x: 1.5rem !default;
+$input-btn-padding-y-sm: 0.5rem !default;
+$input-btn-padding-x-sm: 1rem !default;
+$input-btn-padding-y-lg: 2rem !default;
+$input-btn-padding-x-lg: 2rem !default;
+$btn-font-weight: 600 !default;
+
+// Forms
+
+$input-line-height: 1.5 !default;
+$input-bg: $gray-200 !default;
+$input-disabled-bg: $gray-300 !default;
+$input-group-addon-bg: $gray-300 !default;
+
+// Navbar
+
+$navbar-padding-y: 1.5rem !default;
+$navbar-dark-hover-color: $white !default;
+$navbar-light-color: rgba($black, 0.3) !default;
+$navbar-light-hover-color: $gray-900 !default;
+$navbar-light-active-color: $gray-900 !default;
+
+// Pagination
+
+$pagination-border-color: transparent !default;
+$pagination-hover-border-color: $pagination-border-color !default;
+$pagination-disabled-border-color: $pagination-border-color !default;
+
+// Breadcrumbs
+
+$breadcrumb-bg: transparent !default;
+
+$grid-breakpoints: (xs: 0,
+sm: 384px,
+md: 768px,
+lg: 992px,
+xl: 1200px) !default;
+
+// Lux 4.5.3
+// Bootswatch
+
+//
+// Color system
+//
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$_gray: #d3d3d3 !default;
+$_dark: #272a31 !default;
+$_orange: #ec5242 !default;
+$_orange-shaddow: #ec524299 !default;
+
+html,
+body {
+  overflow: visible;
+}
+
+.btn-primary:hover {
+  color: $_orange;
+  background-color: #16181c;
+  border-color: #101215;
+  box-shadow: 0 0 0 0.2rem $_orange-shaddow;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: $_orange;
+  border-color: $_orange;
+  box-shadow: 0 0 0 0.2rem $_orange-shaddow;
+}
+
+._max-width {
+  max-width: 1300px;
+}
+
+._section-heading {
+  color: $primary;
+  margin: 1rem;
+}
+
+._devider {
+  border-bottom: $_orange solid 2px;
+  min-height: 2px;
+  min-width: 3%;
+  max-width: 5%;
+}
+
+#header {
+  box-shadow: 0 0 7px 0 #000;
+
+  ._top-bar {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+
+    li {
+      padding: 0 11px;
+    }
+  }
+
+  ._main-header {
+    .navbar-brand {
+      padding: 0 20px;
+      color: $primary;
+      font-family: 'UFC', Arial, Helvetica, sans-serif;
+      font-size: xx-large;
+      font-style: italic;
+
+      @include hover-focus () {
+        color: $_orange;
+      }
+    }
+
+    i {
+      font-size: xx-large;
+    }
+
+    li {
+      padding: 0 7px;
+    }
+  }
+}
+
+#footer {
+  ._main-footer {
+    .navbar-brand {
+      padding: 0 20px;
+      color: $primary;
+      font-family: 'UFC', Arial, Helvetica, sans-serif;
+      font-size: 3.5rem;
+      font-style: italic;
+
+      @include hover-focus () {
+        color: black;
+      }
+    }
+  }
+}
+
+#page-hero {
+  ._bg-texture {
+    background-color: #0001;
+    position: relative;
+    z-index: -10;
+    background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  ._bg-texture::before {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #fffe;
+  }
+
+  ._container {
+    padding: 10%;
+  }
+
+  .card {
+    background-color: $gray-200;
+    border: $light 3px solid;
+    min-width: 50vw;
+  }
+
+  h1,
+  h2 {
+    color: $_orange;
+  }
+
+  h3,
+  h5 {
+    color: $gray-700;
+    font-weight: 700;
+  }
+
+  /* Clip text element */
+  .clip-text {
+    font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+    font-size: 7vw;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+
+    @media (max-width: 768px) {
+      font-size: 10vw;
+    }
+  }
+}
+
+#main-program {
+  ._bg-texture {
+    background-color: $dark;
+    background-image: url("./../assets/bg/3px-tile.png");
+  }
+
+  .card {
+    background: #fff1;
+
+    @include hover-focus() {
+      background: #fff3;
+      cursor: pointer;
+    }
+  }
+
+  .fab {
+    font-size: 2.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 6vw;
+    }
+  }
+
+  ._card-heading {
+    font-size: 1.2rem;
+    color: $_orange;
+
+    @media (max-width: 768px) {
+      font-size: 4vw;
+    }
+
+    ._joinus {
+      font-size: 5rem;
+      color: $_orange;
+    }
+  }
+}
+
+#sponsors {
+  .img-fluid {
+    max-width: 7rem;
+    margin: 1rem;
+    opacity: 0.5;
+
+    @include hover-focus() {
+      opacity: 1;
+    }
+  }
+}
+
+#featured-fights {
+  ._featured-fight-1 {
+    background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+    min-height: 70vw;
+    min-width: 70vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: 384px) {
+      min-height: 150px;
+      min-width: 150px;
+      max-height: 170px;
+      max-width: 170px;
+    }
+  }
+
+  .card {
+    border: 0;
+  }
+
+  .card-body {
+    border: none;
+  }
+
+  ._card-img {
+    flex: 1;
+  }
+
+  ._card-text {
+    flex: 2;
+  }
+}
+
+// TICKETS PAGE
+#tickets-body {
+  min-width: 400px;
+}
+
+#select-tickets,
+#select-dinner {
+  ._caption {
+    color: $_orange;
+    font-weight: bolder;
+  }
+
+  .badge-pill {
+    font-size: medium;
+    border: 2px solid $_gray;
+  }
+
+  .table {
+    border: 5px dashed $gray-200;
+    box-shadow: 0 5px 15px -7px black;
+  }
+}
+
+#select-dinner {
+  ._form-submit {
+    min-width: 30%;
+  }
+}
+
+// About Page
+
+#about-hero {
+  ._bg-texture {
+    background-color: #0001;
+    position: relative;
+    z-index: -10;
+    background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  ._bg-texture::before {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #fffe;
+  }
+
+  .card {
+    border: $_gray 3px solid;
+    min-width: 50vw;
+  }
+
+  h1 {
+    color: $_orange;
+    font-size: 5vw;
+    font-family: 'Cocogoose', Arial, Helvetica, sans-serif;
+
+    @media (max-width: 768px) {
+      font-size: 7vw;
+    }
+  }
+}
+
+#about {
+  border: 3px solid $secondary;
+
+  .card {
+    min-width: 50vw;
+  }
+
+  h1 {
+    color: $_orange;
+    font-weight: bold;
+  }
+
+  ._brand {
+    padding: 0 20px;
+    color: $primary;
+    font-family: 'UFC', Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-style: italic;
+
+    @include hover-focus () {
+      color: black;
+    }
+  }
+}
+
+#past-events {
+  border: 3px solid $secondary;
+
+  ._bg-texture {
+    position: relative;
+    z-index: -10;
+    background-image: url("https://www.themix.net/wp-content/uploads/2020/09/2020.09.30-12.26-themixnet-5f73d0b3bed39-600x867.png");
+    min-width: 10vw;
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  ._bg-texture::before {
+    content: '';
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #ec5242bb;
+  }
+
+  .card-img {
+    min-height: 25vw;
+
+    @media (max-width: 768px) {
+      min-height: 50vw;
+    }
+  }
+
+  .card-text {
+    font-size: large;
+  }
+}
