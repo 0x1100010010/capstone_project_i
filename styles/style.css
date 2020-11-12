@@ -9869,6 +9869,10 @@ body {
   flex: 2;
 }
 
+#tickets-body {
+  min-width: 400px;
+}
+
 #select-tickets ._caption,
 #select-dinner ._caption {
   color: #ec5242;
