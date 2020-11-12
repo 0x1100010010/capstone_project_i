@@ -37,7 +37,7 @@
 
 - GitHub: [@githubhandle](https://github.com/bashforger)
 - Twitter: [@twitterhandle](https://twitter.com/bashforge)
-- LinkedIn: [LinkedIn](https://linkedin.com/Muhammad-adeel-danish)
+- LinkedIn: [@linkedIn](https://www.linkedin.com/in/muhammad-adeel-danish/)
 
 ## 🤝 Contributing
 
