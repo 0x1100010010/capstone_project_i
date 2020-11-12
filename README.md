@@ -52,7 +52,7 @@ Contributions, issues, and feature requests are welcome!
 - Open a Pull Request with a detailed description to the development branch of the original project for a review
 
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](./issues/).
 
 ## Show your support
 
